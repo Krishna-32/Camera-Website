@@ -1,0 +1,120 @@
+nav li{
+    display: inline;
+    list-style: none;
+}
+
+nav{
+    background-color: black;
+    text-align: center;
+    padding: 1px;
+}
+
+li a{
+    color: whitesmoke;
+    padding: 100px;
+    text-decoration: none;
+}
+
+.container{
+    width: 1400px;
+    height: 1000px;
+    background-color: darkred;
+    overflow: hidden;
+}
+
+img{
+    width: 1000px;
+    height: auto;
+    padding-left: 250px;
+    padding-top: 75px;
+    opacity: 85%;
+}
+
+h1{
+    text-align: right;
+    font-size: 150px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 700px;
+    right: 300px;
+    color: aliceblue;
+}
+
+p{
+    text-align: right;
+    font-size: xx-large;
+    font-weight: bolder;
+    position: relative;
+    bottom: 800px;
+    right: 320px;
+    color: aliceblue; 
+}
+
+button{
+    position: relative;
+    left: 420px;
+    width: 600px;
+    background-color: darkorange;
+    font-size: 50px;
+    bottom: 700px;
+}
+
+/* About */
+
+.body3{
+    text-align: center;
+    color: aliceblue;
+    font-size: large;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+/*Buy*/
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: orange;
+}
+
+.body5 img{
+    width: 400px;
+    height: auto;
+    padding-left: 500px;
+    filter: drop-shadow(1px 1px 30px black);
+    position: relative;
+    bottom: 50px;
+}
+
+.body5 form{
+    width: 200px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 550px;
+    color: aliceblue;
+}
+
+.body5 button{
+    width: 300px;
+    height: auto;
+    margin-top: 750px;
+    margin-left: 120px;
+}
+
+/*Contact*/
+
+.body4 {
+    color: orange;
+    width: 500;
+    height: auto;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    zoom: 1.7;
+}
+
+.body4 form{
+    font-size: large;
+    color: whitesmoke;
+}
