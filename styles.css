@@ -50,9 +50,9 @@ p{
     color: aliceblue; 
 }
 
-button{
+.body2 form button{
     position: relative;
-    left: 420px;
+    left: 430px;
     width: 600px;
     background-color: darkorange;
     font-size: 50px;
@@ -98,9 +98,13 @@ h2{
 .body5 button{
     width: 300px;
     height: auto;
-    margin-top: 750px;
-    margin-left: 120px;
+    position: relative;
+    left: 560px;
+    top: 20px;
+    font-size: 50px;
+    background-color: orange;
 }
+    
 
 /*Contact*/
 
@@ -117,4 +121,14 @@ h2{
 .body4 form{
     font-size: large;
     color: whitesmoke;
+}
+
+.body4 button{
+    color: black;
+    background-color: aliceblue;
+    width: 100px;
+    height: auto;
+    font-size: small;
+    position: relative;
+    bottom: 30px;    
 }
