@@ -1,3 +1,14 @@
+/*Font*/
+@font-face {
+    font-family: myFont;
+    src: url(Font/HelvetidoodlebyEdT.ttf);
+}
+@font-face {
+    font-family: myFont2;
+    src: url(Font/Lost-Leonenst\ Bold.otf);
+}
+
+/*Index*/
 nav li{
     display: inline;
     list-style: none;
@@ -25,9 +36,10 @@ li a{
 img{
     width: 1000px;
     height: auto;
-    padding-left: 250px;
+    padding-left: 170px;
     padding-top: 75px;
     opacity: 85%;
+    filter: drop-shadow(1px 1px 10px black);
 }
 
 h1{
@@ -36,11 +48,13 @@ h1{
     font-weight: bolder;
     position: relative;
     bottom: 700px;
-    right: 300px;
+    right: 250px;
     color: aliceblue;
+    font-family: myFont;
+    filter: drop-shadow(3px 3px 3px black);
 }
 
-p{
+.subheading p{
     text-align: right;
     font-size: xx-large;
     font-weight: bolder;
@@ -48,20 +62,23 @@ p{
     bottom: 800px;
     right: 320px;
     color: aliceblue; 
+    font-family: myFont2;
+    filter: drop-shadow(3px 3px 3px black);
 }
 
-.body2 form button{
+.subheading form button{
     position: relative;
-    left: 430px;
+    left: 390px;
     width: 600px;
     background-color: darkorange;
     font-size: 50px;
-    bottom: 700px;
+    bottom: 670px;
+    filter: drop-shadow(0px 0px 5px black);
 }
 
 /* About */
 
-.body3{
+.about{
     text-align: center;
     color: aliceblue;
     font-size: large;
@@ -76,9 +93,10 @@ h2{
     text-align: center;
     font-size: 50px;
     color: orange;
+    filter: drop-shadow(3px 3px 3px black);
 }
 
-.body5 img{
+.buy img{
     width: 400px;
     height: auto;
     padding-left: 500px;
@@ -87,28 +105,30 @@ h2{
     bottom: 50px;
 }
 
-.body5 form{
+.buy form{
     width: 200px;
     padding-right: 50px;
     padding-left: 50px;
     margin-left: 550px;
     color: aliceblue;
+    filter: drop-shadow(3px 3px 1px black);
 }
 
-.body5 button{
+.buy button{
     width: 300px;
     height: auto;
     position: relative;
-    left: 560px;
+    left: -50px;
     top: 20px;
     font-size: 50px;
     background-color: orange;
+    filter: drop-shadow(3px 3px 3px black);
 }
     
 
 /*Contact*/
 
-.body4 {
+.contact {
     color: orange;
     width: 500;
     height: auto;
@@ -118,12 +138,12 @@ h2{
     zoom: 1.7;
 }
 
-.body4 form{
+.contact form{
     font-size: large;
     color: whitesmoke;
 }
 
-.body4 button{
+.contact button{
     color: black;
     background-color: aliceblue;
     width: 100px;
@@ -132,3 +152,23 @@ h2{
     position: relative;
     bottom: 30px;    
 }
+
+
+/*Footer*/
+footer {
+    position: relative;
+    bottom: 610px;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    left: 10px;
+}
+
+
+/*All*/
+
+*{
+    font-family: myFont2;
+}
+
+
