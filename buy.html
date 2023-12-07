@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Document metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external stylesheet -->
     <link rel="stylesheet" href="styles.css" class="css">
     <title>Buy</title>
 </head>
 <body>
+    <!-- Main container section -->
     <section class="container">
-        <header class = "navbar">
+        <!-- Navigation Bar -->
+        <header class="navbar">
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -19,16 +23,22 @@
             </nav>
         </header> 
 
+        <!-- Buy Section -->
         <div class="buy">
+            <!-- Heading for the Buy Section -->
             <h2>Order Now</h2>
 
+            <!-- Image of the Product -->
             <img src="Images/3bc5d4fcb12d0ce4bbbd1459316e60fa.jpg" alt="img">
 
+            <!-- Buy Form -->
             <form>
                 <br>
+                <!-- Quantity Input -->
                 <label for="quantity">Quantity:</label><br>
                 <input type="number" id="quantity" name="quantity" min="1" placeholder="&Tab;&Tab;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1"><br>
                 <br>
+                <!-- Color Selection -->
                 Choose any color:<br>
                 <input type="radio" id="red" name="color" value="HTML">
                 <label for="red">Red</label><br>
@@ -37,14 +47,11 @@
                 <input type="radio" id="green" name="color" value="green">
                 <label for="green">Green</label>
 
-                <button
-                class="button" type="submit" formaction="buy.html">
-                Buy $599
+                <!-- Buy Button -->
+                <button class="button" type="submit" formaction="buy.html">
+                    Buy $599
                 </button>
-
-            </form>
-
-            
+            </form>   
         </div>
     </section>
 </body>
